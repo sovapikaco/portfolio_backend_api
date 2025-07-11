@@ -1,11 +1,17 @@
-
-"dependencies": {
-  "express": "^5.1.0",
-  "cors": "^2.8.5",
-  "sqlite3": "^5.1.7",
-  "bcryptjs": "^3.0.2",
-  "jsonwebtoken": "^9.0.2",
-  "multer": "^2.0.1",
-  "dotenv": "^16.4.5",
-  ...
+{
+  "name": "portfolio_backend_api",
+  "version": "1.0.0",
+  "main": "server/app.cjs",
+  "scripts": {
+    "start": "node server/app.cjs"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "cors": "^2.8.5",
+    "sqlite3": "^5.1.7",
+    "bcryptjs": "^3.0.2",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^2.0.1",
+    "dotenv": "^16.4.5"
+  }
 }
