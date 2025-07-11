@@ -15,7 +15,7 @@ const JWT_SECRET = process.env.JWT_SECRET || 'your-secret-key';
 // Middleware
 const allowedOrigins = [
   'http://localhost:5173', // for local dev
-  'https://your-deployed-frontend-url.com' // replace with your actual frontend URL
+  'https://soumyasingha.netlify.app' // replace with your actual frontend URL
 ];
 
 app.use(cors({
